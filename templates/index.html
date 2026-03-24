@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-name">YN</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-eyebrow">Available for work</div>
+    <h1 class="hero-title">
+      <span class="line">Crafting</span>
+      <span class="line italic">digital</span>
+      <span class="line">experiences</span>
+    </h1>
+    <p class="hero-sub">Full-stack developer based in Bengaluru — building clean, purposeful software.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">See my work</a>
+      <a href="#contact" class="btn-ghost">Get in touch</a>
+    </div>
+    <div class="hero-scroll">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-left">
+        <h2>I build things<br/><em>that matter.</em></h2>
+      </div>
+      <div class="about-right">
+        <p>Hi, I'm <strong>Your Name</strong> — a full-stack developer with a passion for creating seamless digital experiences. I specialise in Python backends and modern frontend development.</p>
+        <p>When I'm not coding, I'm exploring new technologies, contributing to open-source, and constantly refining my craft. I believe great software is both functional and beautiful.</p>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-num">3+</span><span class="fact-label">Years exp.</span></div>
+          <div class="fact"><span class="fact-num">20+</span><span class="fact-label">Projects</span></div>
+          <div class="fact"><span class="fact-num">∞</span><span class="fact-label">Curiosity</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title">Tech I work with</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-category">Frontend</div>
+        <div class="skill-tags">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-category">Backend</div>
+        <div class="skill-tags">
+          <span>Python</span><span>Flask</span><span>FastAPI</span><span>REST APIs</span><span>SQLite</span><span>PostgreSQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-category">DevOps</div>
+        <div class="skill-tags">
+          <span>Git</span><span>GitHub Actions</span><span>Docker</span><span>CI/CD</span><span>Linux</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-category">Tools</div>
+        <div class="skill-tags">
+          <span>VS Code</span><span>Figma</span><span>Postman</span><span>Pytest</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title">Selected work</h2>
+    <div class="projects-grid">
+
+      <div class="project-card" data-index="01">
+        <div class="project-meta">
+          <span class="project-tag">Python · Flask · SQLite</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3 class="project-title">Portfolio Website</h3>
+        <p class="project-desc">This very portfolio — built with Flask backend, SQLite contact form storage, and deployed via GitHub Actions CI/CD pipeline.</p>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub →</a>
+          <a href="#" class="project-link">Live →</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-index="02">
+        <div class="project-meta">
+          <span class="project-tag">Python · FastAPI · React</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3 class="project-title">Task Manager API</h3>
+        <p class="project-desc">A RESTful task management API with authentication, real-time updates, and a React dashboard. Features JWT auth and PostgreSQL.</p>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub →</a>
+          <a href="#" class="project-link">Live →</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-index="03">
+        <div class="project-meta">
+          <span class="project-tag">JavaScript · Node · MongoDB</span>
+          <span class="project-year">2023</span>
+        </div>
+        <h3 class="project-title">E-commerce Store</h3>
+        <p class="project-desc">Full-stack e-commerce solution with cart functionality, Stripe payments, and an admin dashboard for inventory management.</p>
+        <div class="project-links">
+          <a href="#" class="project-link">GitHub →</a>
+          <a href="#" class="project-link">Live →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">04 — Contact</div>
+    <div class="contact-grid">
+      <div class="contact-left">
+        <h2>Let's work<br/><em>together.</em></h2>
+        <p>Have a project in mind? I'd love to hear about it. Drop me a message and I'll get back to you within 24 hours.</p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <a href="mailto:your@email.com">your@email.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">⌂</span>
+            <span>Bengaluru, India</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="submit-btn">
+            <span id="btn-text">Send message</span>
+            <span id="btn-loader" class="loader" style="display:none;"></span>
+          </button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-name">Your Name</span>
+      <div class="footer-links">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      </div>
+      <span class="footer-copy">© 2024</span>
+    </div>
+  </footer>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
